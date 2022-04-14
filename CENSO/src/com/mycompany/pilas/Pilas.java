@@ -29,11 +29,6 @@ public class Pilas {
             pila1.imprimir(vector);
             //pila1.mostrar();
             
-            System.out.println("Ingrese el elemento a insertar");
-            int elementoInsertar = teclado.nextInt();
-            int[] elementoInsertado = pila1.eliminar(vector, elementoInsertar);
-            System.out.println(Arrays.toString(elementoInsertado));
-            
             System.out.println("Ingrese el elemento a buscar");
             int elementoBuscar = teclado.nextInt();
             int resultadoBusqueda = pila1.buscar(vector, elementoBuscar);
@@ -50,10 +45,10 @@ public class Pilas {
             int[] elementoEliminado = pila1.eliminar(vector, elementoEliminar);
             System.out.println(Arrays.toString(elementoEliminado));
             
-            /*System.out.println("Ingrese el elemento a insertar");
+            System.out.println("Ingrese el elemento a insertar");
             int elementoInsertar = teclado.nextInt();
             int[] elementoInsertado = pila1.eliminar(vector, elementoInsertar);
-            System.out.println(Arrays.toString(elementoInsertado));*/
+            System.out.println(Arrays.toString(elementoInsertado));
 
         }
         else{

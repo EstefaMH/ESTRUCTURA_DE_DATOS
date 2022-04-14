@@ -6,6 +6,7 @@
 
 
 
+import com.mycompany.pilas.Pilas;
 import java.util.Scanner;
 
 /**
@@ -28,12 +29,14 @@ public class main {
             censo.censo();  
         }else
             if(opc==2){
-                PILAS pilas = new PILAS();
-                pilas.pila();
+                Pilas pilas = new Pilas();
+                //PILAS pilas = new PILAS();
+                Pilas.main(args);
+                //pilas.pila();
             }
         
     
-    }
+        }  
     
    
  
